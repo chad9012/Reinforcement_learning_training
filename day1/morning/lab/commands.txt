@@ -1,19 +1,19 @@
 Explanation of each command:
 
-cd
+1.cd
 Changes the current directory to your home directory. This ensures all files are downloaded and installed in a safe and predictable location.
 
-curl -O https://repo.anaconda.com/archive/Anaconda3-2024.10-1-Linux-x86_64.sh
+2.curl -O https://repo.anaconda.com/archive/Anaconda3-2024.10-1-Linux-x86_64.sh
 Downloads the Anaconda installer script for Linux (version 2024.10-1) into your current directory.
 -O saves the file with its original filename (Anaconda3-2024.10-1-Linux-x86_64.sh).
 
-bash ~/Anaconda3-2024.10-1-Linux-x86_64.sh
+3.bash ~/Anaconda3-2024.10-1-Linux-x86_64.sh
 Executes the installer script using bash. This will launch the Anaconda installation wizard in the terminal, where you’ll be asked to review the license and confirm installation settings.
 
-source ~/.bashrc
+4.source ~/.bashrc
 Reloads your shell configuration to activate the Anaconda environment paths that were added by the installer (e.g., adding Anaconda to your PATH environment variable).
 
-conda list
+5.conda list
 Verifies that Anaconda is installed correctly by listing all the installed Python packages in the base Conda environment.
 
 
